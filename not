@@ -1,0 +1,19 @@
+Windows soket programlama örneği buldum.
+kaynak:http://www.bogotobogo.com/cplusplus/sockets_server_client.php
+       https://armantutorial.wordpress.com/2014/07/23/winsock-tutorial-socket-programming-in-c-on-windows-using-codeblock/
+Daha iyi anlayabilmek için pointer ve typedef, union , struct pdflerimi inceledim.
+union.pfd sayfa 8 tip dönüşü anlayamadım.
+windowsda Time_h, clock_t ,time_t..  sonuç alamadım.
+Windowsda sleep kullanımı ogrendim. c++ 11 aktif edilmeli. kaynak: stackoverflow.com
+Vektor(arraylist) kullanımını öğrendim.  kaynak: cplusplus.com
+Windows'da c++11 aktif olmasına ragmen to_string() komutu calısmıyor.
+codeblocks to_string() calısmıyor. g++ thread calısmıyor.. 1 günümü aldı.
+Problemler nedeniyle Windowsdan linux platformuna geçtim. Kodları linuxda çalışabilecek şekilde modifiye ettim.
+Parçalama arızası (çekirdek döküldü).
+Linux mint sistemimde internet kopma sorunu yaşadım , birkaç çözüm yöntemi denedim.
+İnternet bağlantı problemi devam ediyor..
+ofstream işlemleri eklendi.
+Sunucuyu kapatınca İstemcinin fazladan veri gönderip kapanması çözüldü.Ekstra recv fonksyonu ile kontrol sağlandı.Her bağlantıda sunucudan gelen send(hoşgeldiniz) fonksyonuz kaldırıldı.
+
+
+
